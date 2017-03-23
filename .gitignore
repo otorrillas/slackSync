@@ -1,0 +1,8 @@
+# config.json
+config.json
+
+# Node Modules
+node_modules
+
+# emoji_cache
+emoji_cache/*.*

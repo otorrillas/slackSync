@@ -1,0 +1,15 @@
+{
+	"development" : {
+		"port": 3000,
+		"tunnel_domain": "sample.domain",
+		"download_path": "./emoji_cache/",
+		"SLACK_VERIFICATION_TOKEN": "sampleToken",
+		"teams": {
+			"sampleID": {
+				"name": "sampleName",
+        		"domain": "sampleDomain",
+				"cookie": "sampleCookie"
+			}
+		}
+	}
+}

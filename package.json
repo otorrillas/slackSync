@@ -1,0 +1,22 @@
+{
+  "name": "slacksync",
+  "version": "1.0.0",
+  "description": "Syncs emojis across teams",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js",
+    "tunnel": "node tunnel.js"
+  },
+  "author": "Oriol Torrillas",
+  "license": "ISC",
+  "dependencies": {
+    "@slack/events-api": "^1.0.1",
+    "cheerio": "^0.22.0",
+    "download-file": "^0.1.5",
+    "form-data": "^2.1.2",
+    "glob": "^7.1.1",
+    "hyperquest": "^2.1.2",
+    "localtunnel": "^1.8.2",
+    "through2": "^2.0.3"
+  }
+}
